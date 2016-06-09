@@ -1,3 +1,9 @@
+#' A library to test qlikview r
+#'
+#' This function allows you to test qlikview r
+#' @keywords ocpu
+#' @export
+
 function (X, AccountCount, AvgOrderSize, CustomerCnt, Row, clusterGroup)
 {
 data = data.frame(X = X, AccountCount = AccountCount, AvgOrderSize = AvgOrderSize, CustomerCnt = CustomerCnt, Row = Row)
